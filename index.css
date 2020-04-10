@@ -1,0 +1,88 @@
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+ul li{
+    display: inline;
+}
+
+.sacola{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 14%;
+    word-wrap: break-word;
+}
+
+.sacola-icon{
+    position: absolute;
+    right: 0px;
+    top: 11px;
+}
+
+form{
+    background-color: #aeacac;
+    width: 18%;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: white;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+form > p{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table{
+    width: 20%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    display: ;
+}
+
+th{
+    background-color: #aeacac;
+}
+
+td{
+    border-bottom-style: solid;
+    border-bottom-color: #aeacac;
+    border-bottom-width: 1px;
+}
+
+.container-main{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.imagens{
+    border: 2px solid;
+    border-color: tomato;
+    width: 30%;
+    height: 30%;
+}
+
+.imagens > img{
+    width: inherit;
+    height: inherit;
+}
+
+
+
+
