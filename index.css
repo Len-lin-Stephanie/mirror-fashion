@@ -1,20 +1,31 @@
-.container{
+.container {
     position: relative;
     margin-left: auto;
     margin-right: auto;
 }
 
-.menu-opcoes{
+.container-main {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.menu-opcoes {
     position: absolute;
     bottom: 0;
     right: 0;
+    margin-left: auto;
 }
 
-ul li{
+.destaque-image {
+    margin-right: auto;
+}
+
+ul li {
     display: inline;
 }
 
-.sacola{
+.sacola {
     position: absolute;
     top: 0;
     right: 0;
@@ -22,15 +33,19 @@ ul li{
     word-wrap: break-word;
 }
 
-.sacola-icon{
+.sacola-icon {
     position: absolute;
     right: 0px;
     top: 11px;
 }
 
-form{
+.busca-menu {
+    width: 20%;
+    padding-right: 20px;
+}
+
+form {
     background-color: #aeacac;
-    width: 18%;
     border-bottom-style: solid;
     border-bottom-width: 10px;
     border-bottom-color: white;
@@ -40,49 +55,46 @@ form{
     padding-right: 15px;
 }
 
-form > p{
+form>p {
     font-weight: bold;
     text-transform: uppercase;
 }
 
-table{
-    width: 20%;
+table {
+    width: 100%;
     text-transform: uppercase;
     font-weight: bold;
     text-align: left;
     text-decoration: none;
-    display: ;
 }
 
-th{
+th {
     background-color: #aeacac;
 }
 
-td{
+td {
     border-bottom-style: solid;
     border-bottom-color: #aeacac;
     border-bottom-width: 1px;
 }
 
-.container-main{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
+#destaques {
+    display: flex;
 }
 
-.imagens{
+#destaques>div {
+    margin: 0 auto;
+}
+
+.imagens {
     border: 2px solid;
     border-color: tomato;
+    margin: 10px;
     width: 30%;
     height: 30%;
 }
 
-.imagens > img{
+.imagens>img {
     width: inherit;
     height: inherit;
 }
-
-
-
-
