@@ -12,17 +12,28 @@ header{
     position: relative ;
 }
 
-.menu-opcoes{
+.container-main {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.menu-opcoes {
     position: absolute;
     bottom: 0;
     right: 0;
+    margin-left: auto;
 }
 
-ul li{
+.destaque-image {
+    margin-right: auto;
+}
+
+ul li {
     display: inline;
 }
 
-.sacola{
+.sacola {
     position: absolute;
     top: 0;
     right: 0;
@@ -30,7 +41,7 @@ ul li{
     word-wrap: break-word;
 }
 
-.sacola-icon{
+.sacola-icon {
     position: absolute;
     right: 0px;
     top: 11px;
@@ -59,7 +70,7 @@ form{
     padding-right: 15px;
 }
 
-form > p{
+form > p {
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -72,11 +83,11 @@ table{
     text-decoration: none;
 }
 
-th{
+th {
     background-color: #aeacac;
 }
 
-td{
+td {
     border-bottom-style: solid;
     border-bottom-color: #aeacac;
     border-bottom-width: 1px;
@@ -98,18 +109,15 @@ td:hover{
     display: block;
 }
 
-.imagens{
+.imagens {
     border: 2px solid;
     border-color: tomato;
+    margin: 10px;
     width: 30%;
     height: 30%;
 }
 
-.imagens > img{
+.imagens>img {
     width: inherit;
     height: inherit;
 }
-
-
-
-
